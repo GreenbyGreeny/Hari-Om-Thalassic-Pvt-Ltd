@@ -1,0 +1,94 @@
+
+.course_details{
+    background-color:rgba(255,255,255,0.8);
+    margin: 50px 50px;
+    color: navy;
+}
+
+.course_details{
+    display: flex;
+    margin: auto;
+}
+
+.course_details .booking{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height:30px;
+    margin: 10px 10px 10px 100px ;
+    padding: 10px;
+}
+
+.course_details .booking button{
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius:15px;
+    background-color: #5d5d73;
+    color:white;
+    cursor: pointer;
+}
+
+.course_details #deatils{
+    width: 50%;
+    margin-top:  20px;
+    margin: 20px 50px;
+}
+
+/* courseNav */
+
+#courseNav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 700px;
+    margin: 10px 10px 10px 10px ;
+    padding: 10px;
+    align-items: center;
+    background-color:rgba(11, 11, 69,1); 
+    color: white;
+    border-radius: 0px 0px 100px 100px ;
+}
+
+#courseNav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#courseNav ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    padding:2px;
+}
+
+#courseNav ul li button{ 
+padding: 5px 20px;
+width: 100%;
+border: 2px solid white;
+border-radius:10px;
+background-color: #2b2be4;
+color:white;
+font-size: 1rem;
+cursor: pointer;
+}
+
+
+#courseNav ul li button:hover{
+    text-decoration: underline;
+    color: #a1db83;
+    font-size: 1.1rem;
+}
+
+
+
+#courseNav ul li .nactivebtn{ 
+    text-decoration: underline;
+    background-color: #2b2be4;;
+    
+}
+
+#courseNav ul li .activebtn{ 
+    text-decoration: underline;
+    background-color: white;
+    color: navy;
+    border: 2px solid navy;
+}
