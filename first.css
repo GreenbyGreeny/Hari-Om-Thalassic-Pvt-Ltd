@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*body */
+
+body{
+    background: url('naveyimag2.jpeg') no-repeat center center/cover;
+    /* background-image opacity */
+    background-color: rgba(255,255,255,0.2);
+    background-blend-mode: lighten;  
+    /* ///// */
+}
+
+/* navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color:rgba(11, 11, 69,0.8); 
+}
+
+
+/* navbar logo  */
+#navbar #logo{
+    margin: 20px 20px; 
+}
+
+#navbar #logo img{
+    height: 60px;
+    margin: 5px 5px;
+}
+
+
+/* navbar list */
+
+#navbar ul{
+    display: flex;
+    margin-left: 100px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;   
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color:white    
+}
+
+
+#navbar ul li a:hover{
+    text-decoration: underline;
+    color: #a1db83;
+    font-size: 1.3rem;
+}
+
+/* navbar button */
+#navbar #signup button{
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius:15px;
+    background-color: #5d5d73;
+    color:white;
+    margin-left: 700px;
+    cursor: pointer;
+}
+
+#navbar #signup button a{
+   text-decoration: none;
+   color:white
+}
+
+#navbar #signup button a:hover{
+    text-decoration: underline;
+    color: #a1db83;
+}
+
+/* home section */
+
+#home{
+    display: flex;
+    top: 0px;
+    left:  0px;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 400px;
+    color: white;
+    align-items: center;
+
+}
+
+#home h1{
+    text-align: center;
+}
+
+#home p{
+    text-align: justify;
+    font-size:1.1rem;
+}
+
+
+/* setvices section */
+
+.services-container{
+    background-color:rgba(11, 11, 69,0.2);
+    margin: 50px 50px;
+    color: white;
+}
+
+.services{
+    margin: 50px;
+    display:flex; 
+}
+
+/* services box */
+
+.services .box{
+    border: 2px solid navy;
+    margin: 10px;
+    border-radius: 0px 0px 5px 5px;
+    background-color:rgba(255, 255, 255);  
+}
+
+.services .box h2{
+    color:navy;
+}
+.services .box p{
+    padding: 10px;
+    text-align: justify;
+    color:navy
+}
+
+.services .box img{
+    width:100%;
+    display:block;
+    margin:auto;
+}
+
+.services .box button{
+    width:98%;
+    display:block;
+    border-radius:5px;
+    margin:2px  auto;
+    border: 2px solid white;
+    background-color: #4f4fdb;
+    color:white
+}
+
+/* services more */
+
+.services-container a{
+    color:navy;
+    text-decoration: none;
+}
+
+/* achivement */
+
+#achivment{
+    background-color:navy;
+    color: white;
+}
+
+
+#achivment ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+#achivment ul li{
+
+}
+
+/* contact us */
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;;
+}
+
+#contact-box input, #contact-box textarea, #contact-box button{
+    width:100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#contact-box button{
+    border-radius:5px;
+    border: 2px solid white;
+    background-color: navy;
+    color:white
+}
+
+#contact-box form{
+    width:45% ; 
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+}
+
+
+
+/* utility classes */
+.h-primary {
+    font-size: 3.5rem;
+    padding:10px;
+}
+
+.h-secondary{
+    font-size: 1.8rem;
+    padding:10px;
+}   
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
