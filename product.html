@@ -1,0 +1,331 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.jpeg" alt="logo of hari om thalssic service">
+        </div>
+        <ul>
+            <li class="item"><a href="home.html">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="product.html">product</a></li>
+            <li class="item"><a href="#">Contact</a></li>
+        </ul>
+        <div id="signup"><button><a href="signup.html">Sign Up</a></button></div>
+    </nav>
+
+    <section class="services-container">
+        <div class="serviceNavbar">
+            <ul id="srvcnavlst">
+                <li class="activeProduct"> <a href="#" onclick="actvPrdtfunc(1)">DG Approved Corses Booking</a></li>
+                <li class="nonactiveProduct"><a href="#" onclick="actvPrdtfunc(2)">DG/Non-DG Values ADDED Corses
+                        booking</a></li>
+                <li class="nonactiveProduct"><a href="#" onclick="actvPrdtfunc(3)">CDC/cookery application</a></li>
+                <li class="nonactiveProduct"><a href="#" onclick="actvPrdtfunc(4)">Other Country Flag Documentation</a>
+                </li>
+                <li class="nonactiveProduct"><a href="#" onclick="actvPrdtfunc(5)">Residentail DG Approved Courses</a>
+                </li>
+                <li class="nonactiveProduct"><a href="#" onclick="actvPrdtfunc(6)">Online ALL DG APPlication Updation of
+                        Profiles</a></li>
+            </ul>
+        </div>
+        <div id="service1">
+            <h1 class="h-primary center">our services</h1>
+
+            <div class="services">
+                <div class="box">
+                    <img src="servicesimg/EFA.jpg" alt="EFA">
+                    <h2 class="h-secondary">EFA</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione animi
+                        veniam
+                        perferendis ea
+                        sequi exercitationem, sint totam voluptatum corrupti.</p>
+                    <hr>
+                    <p>deatils:100%</p>
+                    <button>enroll</button>
+                </div>
+                <div class="box">
+                    <img src="servicesimg/EFA.jpg" alt="EFA">
+                    <h2 class="h-secondary">EFA</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione animi
+                        veniam
+                        perferendis ea
+                        sequi exercitationem, sint totam voluptatum corrupti.</p>
+                    <hr>
+                    <p>deatils:100%</p>
+                    <button>enroll</button>
+                </div>
+                <div class="box">
+                    <img src="servicesimg/EFA.jpg" alt="EFA">
+                    <h2 class="h-secondary">EFA</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione animi
+                        veniam
+                        perferendis ea
+                        sequi exercitationem, sint totam voluptatum corrupti.</p>
+                    <hr>
+                    <p>deatils:100%</p>
+                    <button>enroll</button>
+                </div>
+                <div class="box">
+                    <img src="servicesimg/EFA.jpg" alt="EFA">
+                    <h2 class="h-secondary">EFA</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ratione animi
+                        veniam
+                        perferendis ea
+                        sequi exercitationem, sint totam voluptatum corrupti.</p>
+                    <hr>
+                    <p>deatils:100%</p>
+                    <button>enroll</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <section id="service2">
+            <h1 class="h-primary center">section2</h1>
+        </section>
+
+
+        <div id="service3">
+
+            <section class="contact">
+                <h1 class="h-primary center">hari om thalssic</h1>
+                <div id="contact-box">
+                    <form id="cdccocform" action="">
+                        <label for="CDC">select a form:</label>
+                        <select name="CDC" id="CDC" onchange="cdccocfnc(this.value)">
+                            <option value="">--select one option--</option>
+                            <optgroup label="CDC">
+                                <option value="cdcFresh">FRESH CDC APPLICATION (NEW SEAFARER)</option>
+                                <option value="cdcReplacement">REPLACEMENT CDC APPLICATION(DAMAGE/EXPIRED/FULL)</option>
+                                <option value="cdcRenewal">RENEWAL(STICKER) CDC APPLICATION(EXPIRED BUT BLANK)</option>
+                                <option value="cdcDuplicate">DUPLICATE CDC APPLICATION(IN CASE OF LOST)</option>
+                            </optgroup>
+                            <optgroup label="COC">
+                                <option value="cocFresh">FRESH CoC APPLICATION</option>
+                                <option value="cocDuplicate">DUPLICATE CoC APPLICATION(IN CASE OF LOST)</option>
+                            </optgroup>
+                        </select>
+
+                        <div id="cdcscocerviceforms">
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocFresh cocDuplicate">
+                                <label for="email">Email: </label>
+                                <input type="text" name="email" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocFresh cocDuplicate">
+                                <label for="phone">Mobile no: </label>
+                                <input type="number" name="phone" id="phone" placeholder="Enter your phone no.">
+                            </div>
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocFresh cocDuplicate">
+                                <label for="nomineeName">Nominee Name: </label>
+                                <input type="text" name="nomineeName" id="nomineeName"
+                                    placeholder="Enter your nominee name">
+                            </div>
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocFresh cocDuplicate">
+                                <label for="nomineeRelation">Nominee Relation: </label>
+                                <input type="text" name="nomineeRelation" id="nomineeRelation"
+                                    placeholder="Enter your nominee relation">
+                            </div>
+                            <div class="form-group cdcFresh cdcDuplicate cocFresh cocDuplicate">
+                                <label for="eyecolor">Color of Eyes: </label>
+                                <input type="text" name="eyecolor" id="eyecolor"
+                                    placeholder="Enter your color of eyes">
+                            </div>
+                            <div class="form-group cdcFresh cdcDuplicate cocFresh cocDuplicate">
+                                <label for="haircolor">Color of Hair: </label>
+                                <input type="text" name="haircolor" id="haircolor"
+                                    placeholder="Enter your color of hair">
+                            </div>
+                            <div class="form-group cdcFresh cdcDuplicate cocFresh cocDuplicate">
+                                <label for="height">Height: </label>
+                                <input type="text" name="height" id="height" placeholder="Enter your height">
+                            </div>
+                            <div class="form-group cdcFresh cdcDuplicate cocFresh cocDuplicate">
+                                <label for="weight">Weight: </label>
+                                <input type="text" name="weight" id="weight" placeholder="Enter your weight">
+                            </div>
+                            <div class="form-group cdcFresh cdcDuplicate cocFresh cocDuplicate">
+                                <label for="bloodgrp">Blood Group: </label>
+                                <input type="text" name="bloodgrp" id="bloodbrp"
+                                    placeholder="Enter your blood group">
+                            </div>
+                            <div class="form-group cocFresh">
+                                <label for="IdentificationMrk">Identification Mark: </label>
+                                <input type="text" name="IdentificationMrk" id="IdentificationMrk"
+                                    placeholder="Enter your Identification Mark">
+                            </div>
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocFresh cocDuplicate">
+                                <label for="police">NEAREST POLICE STATION:</label>
+                                <input type="text" name="police" id="police"
+                                    placeholder="Enter your nearest police staion deatils">
+                            </div>
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocFresh cocDuplicate">
+                                <label for="deliveryAddress">Address to Deliver:</label>
+                                <input type="text" name="deliveryAddress" id="deliveryAddress"
+                                    placeholder="Enter your Address at which you want to Deliver">
+                            </div>
+
+                            <!-- documents  -->
+
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocDuplicate">
+                                <label for="passport">COLORED SCAN COPY OF PASSPORT (STAMP, FIRST AND LAST):
+                                </label>
+                                <input type="file" id="passport" name="passport">
+                            </div>
+                            <div class="form-group cdcFresh cdcDuplicate">
+                                <label for="ssc">COLORED SCAN COPY OF 10TH MARKSHEET: </label>
+                                <input type="file" id="ssc" name="ssc">
+                            </div>
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocDuplicate">
+                                <label for="photo">Photo: </label>
+                                <input type="file" id="photo" name="photo">
+                            </div>
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocDuplicate">
+                                <label for="sign">Sign: </label>
+                                <input type="file" id="sign" name="sign">
+                            </div>
+                            <div class="form-group cdcFresh cdcReplacement">
+                                <label for="medical">COLORED SCAN COPY OF MEDICAL (DG APPROVED DOCTOR): </label>
+                                <input type="file" id="medical" name="medical">
+                            </div>
+                            <div class="form-group cdcDuplicate">
+                                <label for="fir">POLICE FIR COPY</label>
+                                        <input type="file" id="fir" name="fir">
+                            </div>
+                            <div class="form-group cdcReplacement cdcDuplicate">
+                                <label for="bst&stsdsd">BST AND STSDSD CERTIFICATE: </label>
+                                <input type="file" id="bst&stsdsd" name="bst&stsdsd">
+                            </div>
+                            <div class="form-group cdcReplacement cdcRenewal cdcDuplicate">
+                                <label for="selfattestoldcdc">SELF ATTESTED OLD CDC (FIRST, LAST) : </label>
+                                <input type="file" id="selfattestoldcdc" name="selfattestoldcdc">
+                            </div>
+                            <div class="form-group cocDuplicate">
+                                <label for="coccdc">CDC (ALL STAMP PAGES):</label>
+                                <input type="file" id="coccdc" name="coccdc">
+                            </div>
+
+                            <div class="cdcReplacement">
+                            <p>
+                                <br>
+                                DOCUMENTS NEED TO SUBMIT: <br>
+                                1. ORIGINAL CDC <br>
+                                2. SMO WITH SIGN <br><br>
+                                MMD ADDRESS: Shipping Office, Nou Bhavan, 10 -R.K. Marg, Ballard Estate, Mumbai -400
+                                001.
+                            </p>
+                            <p id="cdcaddrss">
+
+                                FROM: <br> HARI OM THALSSIC PVT LTD
+                                9, MEHTA CHAMBERS,KALYAN STREET, DANA BUNDER MASJID (EAST), MUMBAI, 400009
+                                CONTACT:76667 05007
+                                <br>
+                                <br>
+                                To: <br> SHIPPING MASTER, GOVT SHIPPING OFFICE, NAU BHAVAN, 10-R>K, MARG, MUMBAI,
+                                MAHARASTRA-400001
+                            </p>
+                            </div>
+
+                            <br>
+                            
+                            <div class="form-group cocFresh">
+                                <label for="CDC">select a form:</label>
+                                <select class="cocFresh"  name="cocselet" id="cocselet" onchange="cocselectfnc(this.value)">
+                                    <option value="">--select one option--</option>
+                                        <option value="Saloon_rating_course">Saloon rating course</option>
+                                        <option value="B_SC_MARITIME_HOSPITALITY_STUDIES">B.SC. (MARITIME HOSPITALITY STUDIES)</option>
+                                        <option value="24_MONTHS_SEA_SERVICE_BEFORE_31_12_2013">24 MONTHS SEA SERVICE BEFORE 31.12.2013</option>
+                                        <option value="CCMC_6_MONTHS_SEA_SERVICE_IN_CDC">CCMC 6 MONTHS SEA SERVICE IN CDC</option>
+                                        <option value="3_YEAR_ORIENTATION_COURSE_FOR_CATERING_PERSONAL">3 YEAR FULL TIME DEGREE/DIPLOMA IN CATERING TECHNOLOGY ORIENTATION COURSE FOR CATERING PERSONAL</option>
+                                </select>
+                            </div>
+
+                            <div id="coccourseselect">
+                                <div class="form-group">
+                                    <label for="SALOON_RATING">CCMC/SALOON RATING:</label>
+                                    <input type="text" id="SALOON_RATING" name="SALOON_RATING" placeholder="Enter your CCMC/SALOON RATING">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="VESSEL_NAME">VESSEL NAME:</label>
+                                    <input type="text" id="VESSEL_NAME" name="VESSEL_NAME" placeholder="Enter your VESSEL NAME">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="RANK_SERVED">RANK SERVED:</label>
+                                    <input type="text" id="RANK_SERVED" name="RANK_SERVED" placeholder="Enter your RANK SERVED">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="COMPANY_NAME">COMPANY NAME:</label>
+                                    <input type="text" id="COMPANY_NAME" name="COMPANY_NAME" placeholder="Enter your Company name">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="RPSL_NO">RPSL NO:
+                                        </label>
+                                    <input type="text" id="RPSL_NO" name="RPSL_NO" placeholder="Enter your RPSL NO">
+                                </div>
+                                <div class="form-group">
+                                    <label for="FROM">FROM:</label>
+                                    <input type="text" id="FROM" name="FROM">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="TO">TO:</label>
+                                    <input type="text" id="TO" name="TO">
+                                </div>                                
+                            </div>
+
+
+
+                            <div class="form-group cdcFresh cdcReplacement cdcRenewal cdcDuplicate cocFresh cocDuplicate">
+                                <button> submit</button>
+                            </div>
+
+                        </div>
+
+
+                    </form>
+                </div>
+            </section>
+
+        </div>
+
+        <section id="service4">
+            <h1 class="h-primary center">section4</h1>
+        </section>
+
+        <section id="service5">
+            <h1 class="h-primary center">section5</h1>
+        </section>
+
+        <section id="service6">
+            <h1 class="h-primary center">section6</h1>
+        </section>
+
+
+
+    </section>
+
+
+
+    <footer>
+        <div class="center">
+            <p>copyright &copy. hari om thals sic all rights reserve </p>
+        </div>
+    </footer>
+</body>
+
+<script src="product.js"></script>
+
+</html>

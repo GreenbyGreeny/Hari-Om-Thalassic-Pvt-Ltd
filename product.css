@@ -1,0 +1,55 @@
+/* serviceNavbar */
+.serviceNavbar{
+    display: flex;
+    align-items: center;
+    /* background-color:rgba(11, 11, 69,0.8);  */
+    border-top: 2px solid rgba(11, 11, 69,0.8);
+    border-left: 2px solid rgba(11, 11, 69,0.8);
+    border-right: 2px solid rgba(11, 11, 69,0.8);
+    
+}
+
+/* serviceNavbar list */
+
+.serviceNavbar ul{
+    display: flex;
+}
+
+.serviceNavbar ul li{
+    list-style: none;
+    font-size: 1.2rem;   
+
+}
+
+.serviceNavbar ul li a{
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color:white;
+}
+
+
+.serviceNavbar ul li a:hover{
+    text-decoration: underline;
+    color: #a1db83;
+    font-size: 1.3rem;
+}
+
+
+.activeProduct{
+    background-color:  rgba(11, 11, 69,0.0);
+}
+
+
+.nonactiveProduct{
+    background-color:  rgba(11, 11, 69,0.8);
+}
+
+
+/* address in cdc */
+
+#cdcaddrss{
+    width:50%;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 20px 0px 20px 50px;
+}
